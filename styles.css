@@ -1,0 +1,129 @@
+
+body{
+  background-color: white;
+  margin: 0;
+
+}
+
+section{
+  margin: 50px 100px;
+  padding: 30px 50px;
+}
+
+h2{
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+h1{
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+header{
+  width: 100%;
+  padding-top: 0px;
+}
+
+h3{
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+article{
+  margin: 10px 170px;
+}
+
+table{
+  width: 100%;
+  text-align:left;
+  font-family: 'Open Sans', sans-serif;
+  border-spacing: 30px 20px;
+  text-align:justify;
+  line-height: 1.7;
+}
+
+ol{
+  font-family: arial;
+}
+
+footer{
+  background-color: slateBlue;
+  text-align: center;
+  font-family:arial;
+  overflow: auto;
+}
+
+a{
+  text-decoration:none;
+}
+
+li{
+  font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+  margin:20px;
+}
+
+#busca{
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 2%;
+}
+
+#top-nav-bar{
+
+}
+
+
+#top-info{
+  overflow: auto;
+  background-color: slateBlue;
+  padding-right: 3%;
+}
+
+#personal-info{
+  padding:0% 18%;
+}
+
+#referen{
+  line-height: 1.7;
+}
+
+.top-text{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  text-align: right;
+  font-size: 12px;
+}
+
+.personal-info-text{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  line-height: 1.8;
+}
+
+.personal-info-img{
+  text-align: center;
+  margin-top:30px;
+}
+
+.article-text{
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.8;
+}
+
+.footer-a{
+  color: white;
+}
+
+.li-question{
+  font-weight: bold;
+}
+
+.article-list{
+    line-height: 1.8;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto+Slab:400,700" rel="stylesheet">
+  <title>Cuestionario 1</title>
+</head>
+<body>
+  <header>
+    <div id = "top-info">
+      <p class ="top-text">Fátima Sánchez Suárez  &nbsp&nbsp A01209842  &nbsp&nbsp fat98.cool@gmail.com </p>
+    </div>
+  </header>
+  <h1>Cuestionario 1: BD vs DBMS</h1>
+  <section>
+    <ul>
+      <li class="li-question">¿Qué es entonces una base de datos - DB?</li>
+      <p class="article-text">Según la lectura, una base de datos puede ser comprendida como aquella colección de archivos interrelacionados,
+        que contengan la menor cantidad posible de repeticiones en los mismos, y que cubran las necesidades de la empresa. También puede ser
+        entendida como un contenedor que almacena información de forma ordenada con diferentes propósitos y usos [<a href="#ref1">1</a>].
+      </p>
+      <li class="li-question">¿En qué casos es conveniente usar bases de datos?</li>
+      <p class="article-text">
+        Es conveniente usar bases de datos cuando se quieran almacenar una gran cantidad de éstos. De igual forma, se sugiere su uso cuando
+        la información presenta varios archivos interrelacionados y que pueden ser usados por varios usuarios [<a href="#ref2">2</a>].
+      </p>
+      <li class="li-question">¿Qué es un sistema de gestión de base de datos - DBMS?</li>
+      <p class="article-text">
+        El sistema de gestión de base de datos se podría entender como una combinación entre una base de datos y un conjunto de funciones que permitan
+        manipularlos. El DBMS es utilizado para extraer y almacenar información en una base de datos de forma eficiente [<a href="#ref2">3</a>].
+      </p>
+      <li class="li-question">Enlista y explica las funciones/responsabilidades que tienen los DBMS.</li>
+      <ol class="article-li-ol">
+        <li class="li-li">Simplificar y facilitar el acceso a los datos: debido a que los datos comúnmente se almacenan en discos y el movimiento de los datos a
+        éste es lento, es importante que el sistema estructure los datos para que se muevan lo menos posible y así dar respuestas rápidas.</li>
+        <li class="li-li">Implantación de la integridad: se deberá respetar las reglas que el negocio tenga e implementarlas como restricciones en el sistema
+          Con esto se espera que el gestor de la base de datos pueda determinar si las operaciones ejecutadas en el sistema son válidas o no.
+        </li>
+        <li class="li-li">Implantación de la seguridad: se debe asegurar que el acceso a la información solo esté disponible para las personas
+          autorizadas. El gestor deberá de asegurar que esto suceda y así evitar los fallos de seguridad.
+        </li>
+        <li class="li-li">Copia de seguridad y recuperación: Será responsabilidad del gestor detectar posibles fallos
+          que resulten en una perdida de la información que se tiene en ese momento. Esto con el propósito de restaurar la versión que se tenía anterior al fallo.
+        </li>
+        <li class="li-li">Concurrencia: Otra responsabilidad del gestor de bases de datos será mantener un control en la interacción de más de un usuario
+          con el sistema para así evitar posibles errores en la actualización y Concurrencia de los datos [<a href="#ref2">4</a>].
+        </li>
+      </ol>
+
+      <li class="li-question">Ejemplifica y justifica en que proyecto de los que has realizado hubiera sido conveniente utilizar una base de datos.</li>
+      <p class="article-text">
+        En primer semestre para la clase de organización computacional realicé junto con dos de mis compañeros un sistema de seguridad para una caja fuerte.
+        En éste teníamos que determinar si la seguridad de la caja había sido violada a partir de si se escribían usuario y contraseña correctos, incorrectos
+        o la caja era abierta sin ingresar nada al programa. En este caso hubiera sido conveniente utilizar una base de datos para guardar y gestionar las
+        los distintos usuarios que se pudiesen haber tenido, así como sus respectivas contraseñas. De igual forma, esta base de datos hubiera sido útil en una
+        mejora futura del sistema, en donde teníamos pensado que a partir de ciertos intentos incorrectos o un botón de pánico se pudiera alertar al dueño o
+        a más personas por medio del correo electrónico.
+      </p>
+    </ul>
+  </section>
+  <section> <!--Referencias-->
+    <h1>Referencias</h1>
+    <ul id = "referen">
+      <li id ="ref1">[1] J. Anguiano. (2014, Jun 30). IBM [Online]. Available: <a href="https://www.ibm.com/developerworks/ssa/data/library/tipos_bases_de_datos/index.html">https://www.ibm.com</a></li>
+      <li id ="ref2">[2][3][4] H. Korth y Silverschatz. (n.d.). Fundamentos de bases de datos, Capitulo 1. A través de: <a href="https://miscursos.tec.mx/bbcswebdav/pid-8193681-dt-content-rid-27665457_1/courses/QRO.TC2026.2.1811.20480/lectura1_DBvsDBMS.html">https://miscursos.tec.mx</a></li>
+    </ul>
+  </section>
+</body>
+</html>
